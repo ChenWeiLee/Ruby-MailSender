@@ -38,4 +38,17 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    address:              'smtp.mandrillapp.com',
+    port:                 587,
+    domain:               '5xruby.tw',
+    user_name:            'u0r5656@gmail.com',
+    password:             'QVDny1rCtPYLQ1Ne8iMU8g',
+    authentication:       'plain',
+    enable_starttls_auto: true  
+}
+
 end
