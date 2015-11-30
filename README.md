@@ -6,3 +6,4 @@
 * [Mandrill - Send mail Server](https://mandrillapp.com/settings)
 * [Delay_Job](https://github.com/collectiveidea/delayed_job#rails-42)：延遲工作用，會存於Table
 * [Sidekiq](https://github.com/mperham/sidekiq)：延遲工作用，會存於Memory會比較快一些
+* [settingslogic](https://github.com/binarylogic/settingslogics):將私密資訊放在同個檔案中

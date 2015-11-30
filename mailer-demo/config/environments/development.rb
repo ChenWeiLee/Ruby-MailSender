@@ -45,8 +45,8 @@ Rails.application.configure do
     address:              'smtp.mandrillapp.com',
     port:                 587,
     domain:               '5xruby.tw',
-    user_name:            'u0r5656@gmail.com',
-    password:             'QVDny1rCtPYLQ1Ne8iMU8g',
+    user_name:            Settings.smtp.userid,
+    password:             Settings.smtp.password,
     authentication:       'plain',
     enable_starttls_auto: true  
 }
